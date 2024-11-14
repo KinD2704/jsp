@@ -153,49 +153,49 @@
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="email_address" class="col-md-4 col-form-label text-md-right">Engg. Physics-I</label>
+                                    <label for="email_address" class="col-md-4 col-form-label text-md-right">Web Design</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s1">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="user_name" class="col-md-4 col-form-label text-md-right">Engg. Chemistry</label>
+                                    <label for="user_name" class="col-md-4 col-form-label text-md-right">Web Program</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s2">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="phone_number" class="col-md-4 col-form-label text-md-right">Engg. Mathematics-I</label>
+                                    <label for="phone_number" class="col-md-4 col-form-label text-md-right">DSA</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s3">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="present_address" class="col-md-4 col-form-label text-md-right">Basic Electrical Engg</label>
+                                    <label for="present_address" class="col-md-4 col-form-label text-md-right"> DSA 2</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s4">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Electronic Engg.</label>
+                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">IOT</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s5">
                                     </div>
                                 </div>
                                 
                                  <div class="form-group row">
-                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Engg. Chemistry Lab</label>
+                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Data Science</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s6">
                                     </div>
                                 </div>
                                 
                                  <div class="form-group row">
-                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Engg. Physics Lab</label>
+                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Computer Network</label>
                                     <div class="col-md-6">
                                         <input type="text" class="form-control" name="s7">
                                     </div>
@@ -287,13 +287,14 @@
       <thead>
         <tr>
           <th>Roll Number</th>
-          <th>Engg. Physics-I</th>
-          <th>Engg. Chemistry</th>
-          <th>Engg. Mathematics-I</th>
-          <th>Basic Electrical Engg</th>
-          <th>Electronic Engg.</th>
-          <th>Engg. Chemistry Lab</th>
-          <th>Engg. Physics Lab</th>
+          <th>Web Design</th>
+          <th>Web Program</th>
+          <th>DSA</th>
+          <th>DSA 2</th>
+          <th>IOT</th>
+          <th> Data Science</th>
+          <th> Computer Network</th>
+           <th>Actions</th>
         </tr>
       </thead>
     </table>
@@ -319,6 +320,12 @@
           <td><%=rs.getString(6) %></td>
           <td><%=rs.getString(7) %></td>
           <td><%=rs.getString(8) %></td>
+          <td>
+            <!-- Edit Button -->
+            <a href="editResult.jsp?rollNo=<%=rs.getString(1) %>" class="btn btn-warning">Edit</a>
+            <!-- Delete Button -->
+            <a href="deleteResult.jsp?rollNo=<%=rs.getString(1) %>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this record?');">Delete</a>
+          </td>
         </tr>
         <%
                 }

@@ -117,72 +117,72 @@ tbody >tr:nth-child(odd) {
     </thead>
     <tbody>
       <tr>
-        <td>NAS101</td>
-        <td colspan="2">Engg. Physics-I </td>
+        <td>30INF027</td>
+        <td colspan="2"> Web Design </td>
         <td>Theory</td>
         <td>100</td>
-        <td> 30 </td>
+        <td> 40 </td>
         <td><%=rs.getString(8) %></td>
       </tr>
       <tr>
-        <td>NAS102</td>
-        <td colspan="2">Engg. Chemistry</td>
+        <td>30INF067</td>
+        <td colspan="2"> Web Program</td>
         <td>Theory</td>
         <td>100</td>
-        <td>30</td>
+        <td>40</td>
         <td><%=rs.getString(9) %> </td>
       </tr>
       <tr>
-        <td>NAS103</td>
-        <td colspan="2">Engg. Mathematics-I </td>
+        <td>30INF009</td>
+        <td colspan="2"> DSA </td>
         <td>Theory</td>
         <td>100</td>
-        <td> 30 </td>
+        <td> 40 </td>
         <td> <%=rs.getString(10) %></td>
       </tr>
       <tr>
-        <td>NEE101</td>
-        <td colspan="2">Basic Electrical Engg. </td>
+        <td>30INF010</td>
+        <td colspan="2">DSA 2 </td>
         <td>Theory</td>
         <td>100</td>
-        <td> 30 </td>
+        <td> 40 </td>
         <td> <%=rs.getString(11) %></td>
       </tr>
       <tr>
-        <td>NEC101</td>
-        <td colspan="2">Electronic Engg.</td>
+        <td>30INF077</td>
+        <td colspan="2">IOT</td>
         <td>Theory</td>
         <td>100</td>
-        <td> 30 </td>
+        <td> 40 </td>
         <td> <%=rs.getString(12) %> </td>
       </tr>
       <tr>
-        <td>NAS152</td>
-        <td colspan="2">Engg. Chemistry Lab</td>
+        <td>30TRA155</td>
+        <td colspan="2"> Data Science</td>
         <td>Practical</td>
-        <td>30</td>
-        <td>15</td>
+        <td>100</td>
+        <td>40</td>
         <td> <%=rs.getString(13) %> </td>
       </tr>
       <tr>
-        <td>NAS151</td>
-        <td colspan="2">Engg. Physics Lab</td>
+        <td>30INF008</td>
+        <td colspan="2"> Computer Network</td>
         <td>Practical</td>
-        <td>30</td>
-        <td>15</td>
+        <td>100</td>
+        <td>40</td>
         <td> <%=rs.getString(14) %> </td>
       </tr>
     </tbody>
     <tfoot>
       <tr>
         <td colspan="4" class="footer">Total Marks</td>
-        <td>560</td>
-        <td>180</td>
+        <td>700</td>
+        <td>280</td>
         <td><%int sum=rs.getInt(8)+rs.getInt(9)+rs.getInt(10)+rs.getInt(11)+rs.getInt(12)+rs.getInt(13)+rs.getInt(14); out.println(sum); %> </td>
       </tr>
       <tr>
         <td colspan="4" class="footer">Percentage</td>
-        <td colspan="3"><% out.println((sum*100)/560); %></td>
+        <td colspan="3"><% out.println((sum*100)/700); %></td>
       </tr>
   </table>
     <hr class="new1">
