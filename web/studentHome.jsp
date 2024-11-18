@@ -92,7 +92,10 @@ table {
 }
 
 tbody >tr:nth-child(odd) {
-  background: #D1D0CE;
+  background: blue;
+}
+tbody >tr:nth-child(even) {
+  background: red;
 }
 
 </style>
@@ -118,7 +121,7 @@ tbody >tr:nth-child(odd) {
     <tbody>
       <tr>
         <td>30INF027</td>
-        <td colspan="2"> Web Design </td>
+        <td colspan="2"> Party History </td>
         <td>Theory</td>
         <td>100</td>
         <td> 40 </td>
@@ -126,7 +129,7 @@ tbody >tr:nth-child(odd) {
       </tr>
       <tr>
         <td>30INF067</td>
-        <td colspan="2"> Web Program</td>
+        <td colspan="2"> HaNoi Research</td>
         <td>Theory</td>
         <td>100</td>
         <td>40</td>
@@ -134,7 +137,7 @@ tbody >tr:nth-child(odd) {
       </tr>
       <tr>
         <td>30INF009</td>
-        <td colspan="2"> DSA </td>
+        <td colspan="2"> Marx-Lenin </td>
         <td>Theory</td>
         <td>100</td>
         <td> 40 </td>
@@ -142,7 +145,7 @@ tbody >tr:nth-child(odd) {
       </tr>
       <tr>
         <td>30INF010</td>
-        <td colspan="2">DSA 2 </td>
+        <td colspan="2">Ho Chi Minh Thought </td>
         <td>Theory</td>
         <td>100</td>
         <td> 40 </td>
@@ -150,7 +153,7 @@ tbody >tr:nth-child(odd) {
       </tr>
       <tr>
         <td>30INF077</td>
-        <td colspan="2">IOT</td>
+        <td colspan="2">Law</td>
         <td>Theory</td>
         <td>100</td>
         <td> 40 </td>
@@ -158,7 +161,7 @@ tbody >tr:nth-child(odd) {
       </tr>
       <tr>
         <td>30TRA155</td>
-        <td colspan="2"> Data Science</td>
+        <td colspan="2"> English</td>
         <td>Practical</td>
         <td>100</td>
         <td>40</td>
@@ -166,7 +169,7 @@ tbody >tr:nth-child(odd) {
       </tr>
       <tr>
         <td>30INF008</td>
-        <td colspan="2"> Computer Network</td>
+        <td colspan="2"> National Defense And Security</td>
         <td>Practical</td>
         <td>100</td>
         <td>40</td>

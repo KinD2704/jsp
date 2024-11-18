@@ -40,31 +40,31 @@
         <form action="updateResult.jsp" method="post">
             <input type="hidden" name="rollNo" value="<%= rollNo %>">
             <div class="form-group">
-                <label for="s1">Engg. Physics-I</label>
+                <label for="s1">Party History</label>
                 <input type="text" class="form-control" name="s1" value="<%= s1 %>" required>
             </div>
             <div class="form-group">
-                <label for="s2">Engg. Chemistry</label>
+                <label for="s2">HaNoi Research</label>
                 <input type="text" class="form-control" name="s2" value="<%= s2 %>" required>
             </div>
             <div class="form-group">
-                <label for="s3">Engg. Mathematics-I</label>
+                <label for="s3">Marx-Lenin</label>
                 <input type="text" class="form-control" name="s3" value="<%= s3 %>" required>
             </div>
             <div class="form-group">
-                <label for="s4">Basic Electrical Engg</label>
+                <label for="s4">Ho Chi Minh Thought</label>
                 <input type="text" class="form-control" name="s4" value="<%= s4 %>" required>
             </div>
             <div class="form-group">
-                <label for="s5">Electronic Engg.</label>
+                <label for="s5">Law</label>
                 <input type="text" class="form-control" name="s5" value="<%= s5 %>" required>
             </div>
             <div class="form-group">
-                <label for="s6">Engg. Chemistry Lab</label>
+                <label for="s6">English</label>
                 <input type="text" class="form-control" name="s6" value="<%= s6 %>" required>
             </div>
             <div class="form-group">
-                <label for="s7">Engg. Physics Lab</label>
+                <label for="s7">National Defense And Security</label>
                 <input type="text" class="form-control" name="s7" value="<%= s7 %>" required>
             </div>
             <button type="submit" class="btn btn-primary">Update Result</button>

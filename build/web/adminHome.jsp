@@ -9,7 +9,7 @@
 <!--<img src="" align="right"  width="100" height="100">-->
 <div class="w3-container">
   <div class="w3-bar w3-black">
-    <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'London')">Add New Student</button>
+    <button class="w3-bar-item w3-button tablink w3-blue" onclick="openCity(event,'London')">Add New Student</button>
     <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Paris')">Insert New Result</button>
     <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Tokyo')">Registered Students</button>
      <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Tokyo1')">All Student Result</button>
@@ -55,7 +55,13 @@
                                 <div class="form-group row">
                                     <label for="email_address" class="col-md-4 col-form-label text-md-right">Branch Name</label>
                                     <div class="col-md-6">
-                                        <input type="text"  class="form-control" name="branch">
+                                        <!--<input type="text"  class="form-control" name="branch">-->
+                                        <select class="form-control" name="branch">
+                                            <option value="Foreign Language">Foreign Language</option>
+                                            <option value="pedagogy">Pedagogy</option>
+                                            <option value="economic and urban">Economic And Urban</option> 
+                                            <option value="natural science and technology">Natural Science And Technology</option>
+                                        </select>
                                     </div>
                                 </div>
 
@@ -153,49 +159,49 @@
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="email_address" class="col-md-4 col-form-label text-md-right">Web Design</label>
+                                    <label for="email_address" class="col-md-4 col-form-label text-md-right">Party History</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s1">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="user_name" class="col-md-4 col-form-label text-md-right">Web Program</label>
+                                    <label for="user_name" class="col-md-4 col-form-label text-md-right">HaNoi Research</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s2">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="phone_number" class="col-md-4 col-form-label text-md-right">DSA</label>
+                                    <label for="phone_number" class="col-md-4 col-form-label text-md-right">Marx-Lenin</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s3">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="present_address" class="col-md-4 col-form-label text-md-right"> DSA 2</label>
+                                    <label for="present_address" class="col-md-4 col-form-label text-md-right"> Ho Chi Minh Thought</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s4">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">IOT</label>
+                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Law</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s5">
                                     </div>
                                 </div>
                                 
                                  <div class="form-group row">
-                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Data Science</label>
+                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">English</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s6">
                                     </div>
                                 </div>
                                 
                                  <div class="form-group row">
-                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Computer Network</label>
+                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">National Defense And Security</label>
                                     <div class="col-md-6">
                                         <input type="text" class="form-control" name="s7">
                                     </div>
@@ -238,6 +244,7 @@
           <th>Name</th>
           <th>Father Name</th>
           <th>Gender</th>
+          <th>Action</th>
         </tr>
       </thead>
     </table>
@@ -287,13 +294,13 @@
       <thead>
         <tr>
           <th>Roll Number</th>
-          <th>Web Design</th>
-          <th>Web Program</th>
-          <th>DSA</th>
-          <th>DSA 2</th>
-          <th>IOT</th>
-          <th> Data Science</th>
-          <th> Computer Network</th>
+          <th>Party History</th>
+          <th>HaNoi Research</th>
+          <th>Marx-Lenin</th>
+          <th>Ho Chi Minh Thought</th>
+          <th>Law</th>
+          <th> English</th>
+          <th> National Defense And Security</th>
            <th>Actions</th>
         </tr>
       </thead>
